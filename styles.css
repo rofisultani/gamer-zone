@@ -9,6 +9,9 @@
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin: 10px;
 }
 .GAME{
     display: flex;
@@ -21,10 +24,64 @@ nav{
 div > ul {
     display: flex;
 }
+div > p{
+    display: flex;
+}
 nav li{
     list-style: none;
     margin-right: 20px;
 }
 nav li a{
     text-decoration: none;
+}
+.PLT{
+    background-image: url(images/Group\ 14.png);
+}
+.GOAT{
+    color: rgba(139, 139, 220, 0.951);
+}
+.btn-primary{
+    background-color: palevioletred;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 15px;
+}
+.btn{
+    background-color: rgb(139, 193, 237);
+    color: aliceblue;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 15px;
+}
+.grp18{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin: 100px;
+    padding: 30px;
+}
+.KN{
+    background-color: palevioletred;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 15px;
+}
+.are{
+    color:rgb(175, 25, 175);
+}
+.WAG{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin: 100px;
+    padding: 30px;
+}
+.OGFV{
+    text-align: center;
+}
+.chobi{
+    display: flex;
 }
