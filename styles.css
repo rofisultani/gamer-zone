@@ -46,6 +46,7 @@ nav li a{
     border-radius: 10px;
     border: 0;
     padding: 10px 15px;
+    cursor: pointer;
 }
 .btn{
     background-color: rgb(139, 193, 237);
@@ -53,6 +54,7 @@ nav li a{
     border-radius: 10px;
     border: 0;
     padding: 10px 15px;
+    cursor: pointer;
 }
 .grp18{
     display: flex;
@@ -67,6 +69,7 @@ nav li a{
     border-radius: 10px;
     border: 0;
     padding: 10px 15px;
+    cursor: pointer;
 }
 .are{
     color:rgb(175, 25, 175);
@@ -82,6 +85,85 @@ nav li a{
 .OGFV{
     text-align: center;
 }
+.FV{
+    color: rgba(200, 111, 235, 0.734);
+}
 .chobi{
     display: flex;
+}
+
+.ND{
+    text-align: center;
+}
+
+/* play instantly */
+.play{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.our{
+    display: flex;
+    justify-content: center;
+    color: azure;
+    gap: 30px;
+    margin-top: 10px;
+}
+.action{
+    display: flex;
+    gap: 5px;
+}
+.foot-section{
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+}
+.lgame{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    color: aliceblue;
+}
+.G{
+    color: rgb(248, 137, 248);
+}
+.F-IMG{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding:0px 100px 20px;
+}
+
+.TC{
+    color: aliceblue;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.copy{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+/* responsive media queris */
+/* for mobile devices */
+@media  screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    
+}
+
+/* tablet or medium devices */
+@media screen and(min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 80px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
 }
