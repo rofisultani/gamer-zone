@@ -39,6 +39,7 @@ nav li a{
 }
 .GOAT{
     color: rgba(139, 139, 220, 0.951);
+    background-image: url("C:\Projects\Gamer Zone\images\Group 14.png");
 }
 .btn-primary{
     background-color: palevioletred;
@@ -88,6 +89,9 @@ nav li a{
 .FV{
     color: rgba(200, 111, 235, 0.734);
 }
+.bro{
+    position: 5px;
+}
 .chobi{
     display: flex;
 }
@@ -101,6 +105,8 @@ nav li a{
     margin-top: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
 }
 .our{
     display: flex;
@@ -112,6 +118,35 @@ nav li a{
 .action{
     display: flex;
     gap: 5px;
+    padding: 20px 20px;
+}
+.AG{
+    display: flex;
+}
+.ADG{
+    display: flex;
+}
+.ARG{
+    display: flex;
+    justify-content: center;
+}
+.EG{
+    display: flex;
+}
+.RPG{
+    display: flex;
+}
+.MAG{
+    display: flex;
+}
+.PG{
+    display: flex;
+}
+.SG{
+    display: flex;
+}
+.WG{
+    display: flex;
 }
 .foot-section{
     align-items: center;
@@ -154,7 +189,6 @@ nav li a{
     nav {
         flex-direction: column;
     }
-    
 }
 
 /* tablet or medium devices */
@@ -163,7 +197,5 @@ nav li a{
         padding: 80px;
     }
     nav{
-        flex-direction: column;
+        flex-direction: column; 
     }
-    
-}
